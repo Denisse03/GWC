@@ -1,0 +1,52 @@
+* {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+html, body {
+ height: 100%;
+ background-color: #FCF0DB;
+ 
+}
+h1, h2, h3, h4, h5, h6, p {
+ margin-bottom: 16px
+}
+
+nav{
+    height: 60px;
+    background-color: #F38F6A;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+nav li{
+    list-style: none;
+    font-size: 30px;
+}
+
+nav li a{
+    text-decoration: none;
+    color: black;
+ 
+
+}
+
+h1{
+    margin: 10px auto;
+    text-align: center;
+    color: #B83A10;
+    font-size: 50px;
+}
+
+img{
+    width: 50px;
+}
+
+.banner{
+    width: 600px;
+    height: 250px;
+    background-color: gray;
+    margin: 0 auto;
+}
