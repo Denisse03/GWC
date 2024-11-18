@@ -50,3 +50,74 @@ img{
     background-color: gray;
     margin: 0 auto;
 }
+
+#allInfo{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title{
+    margin-left: 30px;
+}
+
+img{
+    margin-left: 30px;
+}
+
+form{
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+
+label{
+    margin-top: 15px;
+ 
+}
+
+input{
+    margin-top: 15px;
+    height: 40px;
+}
+
+button{
+    margin-top: 15px;
+    background-color: #F38F6A;
+    width: 60px;
+    height: 50px;
+    border-radius: 10px;
+}
+
+h5{
+    margin-left: 100px;
+}
+
+.foodimg{
+    margin-left: 100px;
+    width: 700px;
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.foodOne{
+    background-color: gray;
+    width: 200px;
+    height: 200px;
+}
+.foodTwo{
+    background-color: gray;
+    width: 200px;
+    height: 200px;
+    display: flex;
+}
+.foodThree{
+    background-color: gray;
+    width: 200px;
+    height: 200px;
+}
