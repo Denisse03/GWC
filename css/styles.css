@@ -20,7 +20,6 @@ nav{
     align-items: center;
 }
 
-
 nav li{
     list-style: none;
     font-size: 30px;
@@ -29,8 +28,6 @@ nav li{
 nav li a{
     text-decoration: none;
     color: black;
- 
-
 }
 
 h1{
@@ -38,6 +35,20 @@ h1{
     text-align: center;
     color: #B83A10;
     font-size: 50px;
+    padding: 40px;
+}
+
+h2{
+    margin: 10px auto;
+    text-align: center;
+    color: #B83A10;
+    font-size: 50px;
+}
+
+h4{
+    text-align: center;
+    color: #B83A10;
+    font-size: 20px;
 }
 
 img{
@@ -46,9 +57,14 @@ img{
 
 .banner{
     width: 600px;
-    height: 250px;
+    height: 300px;
     background-color: gray;
     margin: 0 auto;
+    background-image: url(https://lenouveauchef.us/cdn/shop/files/Catering_Uniforms.jpg?v=1699881819&width=1600);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+   
 }
 
 #allInfo{
@@ -56,10 +72,26 @@ img{
     display: flex;
     justify-content: center;
     align-items: center;
+    
+}
+
+#allInfos{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;  
+    align-items: center;      
+    gap: 20px;  
+}
+
+.titles{
+    margin-top: 10px;          
+    font-size: 18px;
 }
 
 .title{
     margin-left: 30px;
+    width: 400px;
+    font-size: 60px;
 }
 
 img{
@@ -67,38 +99,69 @@ img{
 }
 
 form{
-    margin: 0 auto;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    align-content: center;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 400px;
+  width: 100%;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 label{
-    margin-top: 15px;
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 8px;
+  width: 100%;
+  text-align: left;
+  display: block;
  
 }
+
+input, select, textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    font-size: 16px;
+  }
 
 input{
     margin-top: 15px;
     height: 40px;
+    margin-bottom: 15px;
 }
 
 button{
-    margin-top: 15px;
-    background-color: #F38F6A;
-    width: 60px;
-    height: 50px;
-    border-radius: 10px;
+  background-color: #F38F6A;
+  color: white;
+  width: 100%;
+  padding: 12px;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 6px;
 }
 
-h5{
-    margin-left: 100px;
+textarea{
+    margin-top: 15px;
 }
+
+.infoText {
+    display: flex;
+    flex-direction: column;   /* Stack the text vertically */
+    align-items: flex-start;  /* Align text to the left */
+    justify-content: center;  /* Center text vertically */
+  }
+
 
 .foodimg{
-    margin-left: 100px;
+    margin-left: 350px;
     width: 700px;
     height: 300px;
     display: flex;
@@ -106,18 +169,39 @@ h5{
 }
 
 .foodOne{
-    background-color: gray;
     width: 200px;
     height: 200px;
+    background-image: url(https://png.pngtree.com/thumb_back/fw800/background/20240327/pngtree-beauty-fashion-model-girl-wearing-sunglass-with-trendy-clothes-image_15696050.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+    
 }
 .foodTwo{
     background-color: gray;
     width: 200px;
     height: 200px;
     display: flex;
+    background-image: url(https://images.immediate.co.uk/production/volatile/sites/30/2020/08/chorizo-mozarella-gnocchi-bake-cropped-9ab73a3.jpg?resize=768,574);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 .foodThree{
     background-color: gray;
     width: 200px;
     height: 200px;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTvq4TgZWVLQXW1vSwX9kGLTv4twv-5Kh1fA&s);
+}
+
+h3{
+    margin-top: 40px;
+    text-align: center;
+    font-size: 40px;
+
+}
+
+#images{
+    width: 400px;
 }
